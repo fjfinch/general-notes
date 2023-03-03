@@ -1,19 +1,21 @@
-# Virtual environment
 ## OS virtual environment
-docker
+- docker
 
 ## Python virtual environment
-virtualenv +virtualenvwrapper
-	venv (same as pyvenv)
-conda
-pyvenv (deprecated)
+#### Different versions of same library
+- virtualenv
+	- virtualenvwrapper (managing environments)
+	- venv (subset - standard library)
+- pyvenv (deprecated in 3.6 for venv)
 
+#### Different Python versions
+- pyenv
 
-pipenv (uses virtualenv)
-poetry
-
-
-pyenv +pyenv-virtualenv +pyenv-virtualenvwrapper
-
-
-pew
+#### Other
+- pyenv-virtualenv (pyenv + virtualenv)
+- pyenv-virtualenvwrapper (pyenv + virtualenvwrapper)
+- pipenv
+- micropipenv
+- conda
+- poertry
+- pew

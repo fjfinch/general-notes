@@ -3,11 +3,11 @@
   "ribbonBarOrder": [],
   "fileExplorerOrder": {
     "/": [
-      "Windows",
-      "Web",
-      "Cryptography",
-      "Miscellaneous",
-      "Other"
+      "Git.md",
+      "Markdown.md",
+      "Package managers.md",
+      "Virtual environment.md",
+      "File transfer.md"
     ]
   },
   "actionBarOrder": {},

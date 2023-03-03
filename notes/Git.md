@@ -1,4 +1,3 @@
-# Git
 ## GIT CONFIG
 ```bash
 git config --list
@@ -8,7 +7,7 @@ git config --global user.name '<USER>'
 git config --global user.email '<EMAIL>'
 git config --global pull.rebase true
 
-git remote set-url origin git@github.com:fjfinch/<REP>.git
+git remote set-url origin git@github.com:<USER>/<REP>.git
 ```
 
 ## GIT LOCAL
@@ -30,7 +29,7 @@ git branch -d <BRANCH>		# delete branch
 git checkout <BRANCH>		# move to branch
 git checkout -b <BRANCH>	# create new branch, and move to branch
 
-pull:
+'pull' is combination of:
 - fetch
 - merge/rebase
 

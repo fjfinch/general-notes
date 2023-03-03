@@ -1,4 +1,3 @@
-# Markdown
 [Give me name](https://google.nl/)
 
 > Quote block
