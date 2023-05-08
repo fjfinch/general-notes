@@ -1,4 +1,4 @@
-## GIT CONFIG
+## git config
 ```bash
 git config --list
 git config --global --list
@@ -10,7 +10,7 @@ git config --global pull.rebase true
 git remote set-url origin git@github.com:<USER>/<REP>.git
 ```
 
-## GIT LOCAL
+## git local
 ```bash
 git init			# create new repo
 
@@ -59,7 +59,7 @@ git pull --recurse-submodules
 .git/info/exclude
 ```
 
-## GITHUB REMOTE
+## github remote
 ```bash
 git remote add origin <URL> # add remote repo, with specified URL as origin, to local repo
 git push -u origin main # push main branch to origin URL, and set as default remote branch

@@ -1,17 +1,17 @@
-## OS virtual environment
+## OS
 - docker
 
-## Python virtual environment
-#### Different versions of same library
+## Python
+Isolate Python libraries:
 - virtualenv
 	- virtualenvwrapper (managing environments)
 	- venv (subset - standard library)
 - pyvenv (deprecated in 3.6 for venv)
 
-#### Different Python versions
+Isolate Python versions:
 - pyenv
 
-#### Other
+## Other
 - pyenv-virtualenv (pyenv + virtualenv)
 - pyenv-virtualenvwrapper (pyenv + virtualenvwrapper)
 - pipenv
