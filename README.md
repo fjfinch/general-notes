@@ -1,4 +1,4 @@
-# notes-general
+# general-notes
 Notes for general use.
 
 ## Use
